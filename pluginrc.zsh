@@ -1,0 +1,5 @@
+plugin_dir="$(cd "$(dirname "${(%):-%N}")" && pwd)"
+export PATH="$plugin_dir/bin:$PATH"
+export EDITOR="nvim"
+export VISUAL="nvim"
+alias vim="nvim"

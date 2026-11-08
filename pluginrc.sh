@@ -1,0 +1,5 @@
+plugin_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PATH="$plugin_dir/bin:$PATH"
+export EDITOR="nvim"
+export VISUAL="nvim"
+alias vim="nvim"
