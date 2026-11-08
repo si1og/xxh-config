@@ -1,7 +1,7 @@
 # xxh config
 
 Portable SSH environment managed by
-[`xxh`](https://github.com/xxh/xxh). It installs a prebuilt Linux x86_64
+[`xxh`](https://github.com/xxh/xxh). It installs a prebuilt Linux
 Neovim with the configuration from
 [`si1og/neovim-config`](https://github.com/si1og/neovim-config).
 
@@ -21,4 +21,4 @@ for it. The first editor launch downloads Neovim plugins into the hermetic xxh
 home.
 
 The plugin downloads the rolling `xxh-latest` payload published by the
-`neovim-config` CI workflow. Only Linux x86_64 hosts are currently supported.
+`neovim-config` CI workflow. Linux x86_64 and aarch64 hosts are supported.
