@@ -21,4 +21,5 @@ for it. The first editor launch downloads Neovim plugins into the hermetic xxh
 home.
 
 The plugin downloads the rolling `xxh-latest` payload published by the
-`neovim-config` CI workflow. Linux x86_64 and aarch64 hosts are supported.
+`neovim-config` CI workflow. Its local package contains both Linux x86_64 and
+aarch64 payloads; the remote shell selects the matching one using `uname -m`.
