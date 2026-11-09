@@ -1,5 +1,6 @@
 hosts:
   ".*":
     +s: xxh-shell-bash
+    +hhh: "~"
     +I:
       - xxh-plugin-prerun-neovim+git+https://github.com/si1og/xxh-config.git
